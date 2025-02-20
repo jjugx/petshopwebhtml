@@ -1,0 +1,51 @@
+* {
+    font-family: Kanit, sans-serif;
+}
+.howtopay {
+    width: 80%;
+    margin: 2rem auto;
+}
+h2 {
+    text-align: center;
+}
+.box-1 {
+    margin-top: 1rem;
+    background-color: #FFAB07;
+}
+.box-1 p {
+    border: 5px solid #FFAB07;
+    font-size: 22px;
+    margin: 0 auto;
+    padding: 0.8rem;
+}
+.box-2 {
+    border: 5px solid #FFAB07;
+}
+.card-img {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.card-img img {
+    width: 60px;
+    height: auto;
+    margin: 0.5rem;
+}
+.card-img .postman-img {
+    width: 100px;
+    height: auto;
+    margin: 0.5rem;
+}
+.text {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+@media screen and (max-width:576px) {
+    .text {
+        padding: 1rem;
+    }
+    html {
+        min-width: 350px;
+    }
+}

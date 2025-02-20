@@ -1,0 +1,37 @@
+* {
+    font-family: Kanit, sans-serif;
+}
+.container {
+    width: 80%;
+}
+
+h2 {
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.howtobuy {
+    width: 50%;
+}
+.img {
+    margin-top: 1rem;
+}
+.img img {
+    width: 90%;
+    border: 1px solid;
+    height: auto;
+}
+
+@media screen and (max-width:576px) {
+    .howtobuy {
+        width: 80%;
+    }
+    html {
+        min-width: 350px;
+    }
+}

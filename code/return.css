@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-family: 'Kanit', sans-serif;
+}
+#head {
+    background-color: #FFD401;
+    border-bottom: 1px solid black;
+    position: relative;
+}
+
+.btn-h{
+    background-color: #FFD401;
+    border: 3px solid #FFD401;
+}
+
+.navbar {
+    background-color: #FFD700;
+    box-shadow: 0px 5px 10px rgb(166, 165, 165) ;
+}
+
+.navbar-nav .nav-link {
+    color: #000000;
+
+}
+
+.dropend .dropdown-toggle {
+    color: black;
+}
+
+.dropdown-item:hover {
+    background-color: #fceda1;
+    color: black;
+}
+
+.dropdown .dropdown-menu {
+    display: none;
+}
+
+.dropdown:hover>.dropdown-menu,
+.dropend:hover>.dropdown-menu {
+    display: block;
+    margin-top: .1em;
+    margin-left: .1em;
+}
+
+.navbar{
+    box-shadow: none;
+}
+
+.btn-search {
+    background-color: #FFAB07;
+    border: 2px solid #FFAB07;
+    color: black;
+}
+
+.btn-p{
+    background-color: #FFD700;
+    border: none;
+}
+.navbread {
+    padding: 0.5rem 1.5rem;
+}
+
+.btn-search:hover {
+    transform: translate(2px, -2px);
+}
+
+
+/* ----------breadcump------------ */
+.breadcump {
+    padding: 2%;
+}
+.breadcump a {
+    color: black;
+    text-decoration: none;
+}
+
+/* ----------content----------- */
+
+#content h2 {
+    text-align: center;
+    margin-top: 1%;
+}
+
+.box {
+    width: 80%;
+    margin: 3% auto;
+}
+span {
+    color: red;
+}
+p.text {
+    color: #FFAB07;
+}
+p.text-2 {
+    text-indent: 3rem;
+}
+
+.box-form {
+    width: 80%;
+    height: 350px;
+    margin: 4% auto;
+    border: 3px solid #FFAB07;
+    border-radius: 20px;
+    position: relative;
+}
+.h{
+    position: absolute;
+    top: -1.5rem;
+    left: 2rem;
+    width: 6rem;
+    height: 5vh;
+    text-align: center;
+    font-size: large;
+    background-color: white;
+    border: 3px solid #FFAB07;
+    border-radius: 10px;
+}
+.form-con{
+    margin: 2% 20%;
+    width: 80%;
+   
+}
+.con{
+    display: flex;
+    justify-content: left;
+    width: 80%;
+}
+.flabel{
+    width: 80%;
+    margin-right: 2%;
+}
+
+.flabel input {
+    margin-top: 2%;
+    width: 100%;
+    border: 3px solid;
+    border-radius: 20px;
+}
+#area{
+    margin-top: 2%;
+    width: 100%;
+    border: 3px solid;
+    border-radius: 20px;
+}
+span{
+    color: red;
+}
+#text{
+    height: 100px;
+}
+.sub{
+    width: 10%;
+    border: 3px solid #FFAB07;
+    border-radius: 20px;
+    background-color: #FFAB07;
+    margin-left: 70%;
+}
+
+
+/* -------------------------footer------------------------ */
+.footer {
+    background-color: #FFD401;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7%;
+    padding: 3rem;
+    box-shadow: 0px -5px 10px rgb(166, 165, 165) ;
+}
+.f {
+    width: 50%;
+
+}
+.pic {
+    width: 50%;
+    margin: 0 auto;
+}
+.pic img {
+    width: 100%;
+}
+.icon{
+    width: 25%;
+    display: flex;
+    margin: 0 auto;
+}
+.icon img{
+    width: 90%;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+.nonetype li {
+    list-style-type: none;
+}
+
+
+.breadcump a:hover {
+    text-decoration: underline;
+}
+.f a:hover {
+    text-decoration: underline;
+}
+
+
+@media screen and (max-width:1023px) {
+    html {
+        min-width: 576px;
+    }
+    .h{
+        height: 3vh;
+    }
+    .form-con{
+        margin-left: 7rem;
+        margin-top: 2rem;
+    }
+    .sub{
+        width: 20%;
+        border-radius: 20px;
+    }
+    .box-form{
+        height: 55vh;
+    }
+    .footer {
+        height: 45vh;
+    }
+    .f {
+        width: 30%;
+    }
+
+    .ad {
+        margin-left: 2rem;
+    }
+}
+
+@media screen and (max-width:576px) {
+    html {
+        min-width: 350px;
+    }
+    .h{
+        height: 4vh;
+    }
+    .form-con{
+       margin: 1rem;
+        margin-left: 2rem;
+    }
+    .con{
+        width: 100%;
+    }
+    .sub{
+        width: 30%;
+        border-radius: 20px;
+    }
+    .box-form{
+        height: 50vh;
+    }
+    .footer {
+        height: 65vh;
+        flex-wrap: wrap;
+    }
+    .a, .b{
+        width: 100%;
+    }
+    .f {
+        width: 50%;
+        font-size: small;
+    }
+
+    .ad {
+        margin-left: 2rem;
+    }
+}
+
+@media screen and (min-width:769px) {
+    .dropend:hover>.dropdown-menu {
+      position: absolute;
+      top: 0;
+      left: 100%;
+    }
+  .dropend .dropdown-toggle {
+      margin-left: .2em;
+    }
+  }
+
+
+ 

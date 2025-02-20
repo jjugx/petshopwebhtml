@@ -1,0 +1,114 @@
+* {
+    font-family: Kanit, sans-serif;
+}
+.container {
+    width: 90%;
+}
+.box {
+    display: flex;
+    align-items: flex-start;
+    padding-top: 2rem;
+}
+h3 {
+    margin-top: 2rem;
+}
+.box-2 {
+    margin-left: 20px;
+}
+.box-2 p iframe {
+    border: 1px solid;
+    width: 500px; 
+    height: 350px;
+}
+.box-1 {
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.box_head {
+    font-weight: bolder;
+    width: 50%;
+}
+.box_ans {
+    width: 100%;
+}
+p {
+    padding-left: 10px;
+}
+.content-2 {
+    border: 2px solid #FFAB07;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.name {
+    display: flex;
+    width: 100px;
+}
+
+#inform {
+    width: auto;
+    height: 100px;
+}
+
+form {
+    margin-left: 30%;
+    padding: 1rem;
+}
+label {
+    margin-top: 0.5rem;
+}
+input[type="submit"] {
+    border-radius: 20px;
+    width: 20%;
+    background-color: #FFAB07;
+    border: none;
+    padding: 0.3rem;
+    margin-top: 1rem;
+    width: 20%;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="date"],
+input[type="email"],
+select {
+    border-radius: 10px;
+    width: 40%;
+    border: 1px solid black;
+    padding: 0.2rem;
+}
+
+label {
+    margin-top: 0.5rem;
+}
+
+@media screen and (max-width:1023px) {
+    input[type="submit"] {
+        width: 40%;
+    }
+    .box-2 p iframe {
+        width: 300px; 
+        height: 200px;
+    }
+}
+
+/* <= 576px */
+@media screen and (max-width:576px) {
+    input[type="submit"] {
+        width: 60%;
+    }
+    .box-2 p iframe {
+        width: 150px; 
+        height: 150px;
+    }
+    input[type="text"] {
+        width: 50%;
+        line-height: 1rem;
+    }
+    html {
+        min-width: 350px;
+    }
+
+}

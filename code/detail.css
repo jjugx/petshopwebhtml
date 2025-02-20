@@ -1,0 +1,264 @@
+* {
+    font-family: Kanit, sans-serif;
+}
+.head {
+    display: flex;
+}
+
+.head .img {
+    width: 40%;
+    text-align: center;
+}
+
+.head .img img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #FFAB07;
+    border-radius: 10px;
+    padding: 0;
+}
+
+.head .img .card_img {
+    width: 100%;
+}
+
+.head .img .card_img img {
+    width: 32%;
+    height: auto;
+}
+
+h2 {
+    margin-left: 1rem;
+}
+
+.name .rate_head {
+    margin-left: 2rem;
+}
+
+.rate_head i {
+    color: #FFAB07;
+}
+
+.price {
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    width: 30%;
+}
+
+.price p {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.size p {
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.size_btn {
+    margin-left: 2rem;
+}
+
+.size_btn button {
+    padding: 0.5rem;
+    margin-left: 1rem;
+    border-radius: 20px;
+    border: 2px solid #FFAB07;
+    background-color: white;
+}
+
+.quantity {
+    padding: 0;
+    margin-left: 1rem;
+}
+
+.cart_btn,
+.buy_btn {
+    padding: 0.2rem 2rem;
+}
+
+.quantity {
+    border: 2px solid #FFAB07;
+    background-color: white;
+}
+
+input[type="text"],
+textarea {
+    border-radius: 10px;
+    width: 40%;
+    border: 1px solid black;
+    padding: 0.2rem;
+}
+
+.buy {
+    margin-left: 1rem;
+}
+
+.buy_detail i {
+    margin-left: 1rem;
+}
+
+.cart_btn {
+    margin-left: 1rem;
+}
+
+.buy_btn {
+    margin-left: 1.5rem;
+}
+
+.cart_btn,
+.buy_btn {
+    border: 2px solid #FFAB07;
+    background-color: #FFAB07;
+    border-radius: 20px;
+}
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: white;
+    float: left;
+    border: 1px solid #FFAB07;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #FFAB07;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #FFAB07;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 2px solid #FFAB07;
+}
+
+.rate_top {
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+}
+
+.rate_right {
+    width: 40%;
+}
+
+.rate {
+    margin-top: 2rem;
+}
+
+.rate p {
+    text-align: center;
+}
+
+i {
+    color: #ffc653;
+}
+
+.person {
+    color: black;
+}
+
+.rate_bottom {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 2px solid;
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+input[type="submit"] {
+    border-radius: 20px;
+    background-color: #FFAB07;
+    border: none;
+    padding: 0.3rem;
+    margin-top: 1rem;
+    width: 30%;
+}
+
+form {
+    display: inline-block;
+    margin-left: 30%;
+}
+
+.detail_box {
+    margin-top: 2rem;
+}
+
+.dh {
+    font-weight: bolder;
+    font-size: large;
+}
+
+label {
+    margin-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+#review {
+    width: 60%;
+    height: 100px;
+}
+.price {
+    width: 100%;
+}
+.price p {
+    text-align: left;
+}
+
+
+
+@media screen and (max-width:1023px) {
+
+    .quantity,
+    .cart_btn,
+    .buy_btn {
+        padding: 0.2rem 1.2rem;
+    }
+
+    .head .img .card_img img {
+        width: 40%;
+        height: auto;
+        margin-top: 0.2rem;
+    }
+}
+
+/* <= 576px */
+@media screen and (max-width:576px) {
+
+    .cart_btn,
+    .buy_btn {
+        padding: 0.2rem 1rem;
+    }
+
+    html {
+        min-width: 350px;
+    }
+
+    .quantity {
+        padding: 0;
+    }
+
+    .cart_btn,
+    .buy_btn {
+        padding: 0.2rem 0.5rem;
+    }
+
+}

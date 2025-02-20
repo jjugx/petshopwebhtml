@@ -1,0 +1,360 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-family: 'Kanit', sans-serif;
+}
+
+#head {
+    background-color: #FFD401;
+    border-bottom: 1px solid black;
+    position: relative;
+}
+
+.btn-h {
+    background-color: #FFD401;
+    border: 3px solid #FFD401;
+}
+
+.navbar {
+    background-color: #FFD700;
+    box-shadow: 0px 5px 10px rgb(166, 165, 165);
+
+}
+
+.navbar-nav .nav-link {
+    color: #000000;
+
+}
+
+.dropend .dropdown-toggle {
+    color: black;
+}
+
+.dropdown-item:hover {
+    background-color: #fceda1;
+    color: black;
+}
+
+.dropdown .dropdown-menu {
+    display: none;
+}
+
+.dropdown:hover>.dropdown-menu,
+.dropend:hover>.dropdown-menu {
+    display: block;
+    margin-top: .1em;
+    margin-left: .1em;
+}
+
+
+.navbar{
+    box-shadow: none;
+}
+
+.btn-search {
+    background-color: #FFAB07;
+    border: 2px solid #FFAB07;
+    color: black;
+}
+
+.btn-p{
+    background-color: #FFD700;
+    border: none;
+}
+.navbread {
+    padding: 0.5rem 1.5rem;
+}
+
+.btn-search:hover {
+    transform: translate(2px, -2px);
+}
+
+
+/* ----------breadcump------------ */
+.breadcump {
+    padding: 2%;
+}
+
+.breadcump a {
+    color: black;
+    text-decoration: none;
+}
+
+.breadcump a:hover {
+    text-decoration: underline;
+}
+
+#content h2 {
+    text-align: center;
+    margin-top: 1%;
+}
+
+.box {
+    width: 80%;
+    height: auto;
+    margin: 3% auto;
+}
+
+.photo {
+    width: 50%;
+    margin: 2% 25%;
+    margin-bottom: 1%;
+    border: 3px solid #FFD401;
+    border-radius: 20px;
+}
+
+.photo img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.icon-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    width: 73%;
+    height: 15px;
+    font-size: x-small;
+}
+
+.box-icon {
+    width: 7%;
+    text-align: right;
+}
+
+.box-icon img {
+    width: 20%;
+}
+
+.text {
+    margin: 3% auto;
+    width: 70%;
+}
+
+.text h5 {
+    color: #FFAB07;
+}
+
+.text p {
+    text-indent: 3rem;
+}
+
+.texthead {
+    width: 80%;
+    margin: 3% auto;
+    border: 3px solid #FFAB07;
+    border-radius: 20px;
+    padding: 2%;
+    text-align: center;
+}
+
+.btn-shop {
+    background-color: #FFAB07;
+    border: 3px solid #FFAB07;
+    border-radius: 20px;
+    padding: 1rem 3rem;
+    margin-left: 42%;
+}
+
+
+.box-1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.box-in {
+    width: 70%;
+    height: 45vh;
+    margin: 5px auto;
+    border: 3px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.box-photo {
+
+    width: 100%;
+    height: 19vh;
+    overflow: hidden;
+
+}
+
+.box-photo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 20px 0 0;
+
+    object-fit: cover;
+    border-bottom: 3px solid black;
+}
+
+.box-text {
+    background-color: #FAEEB2;
+    padding: 1rem;
+    height: 30vh;
+    border-radius: 0 0 20px 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+
+
+}
+
+.ph {
+    width: 5%;
+    height: 50px;
+    object-fit: cover;
+    margin-top: 8rem;
+}
+
+p.t {
+    height: 15vh;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* ---------------footer------------------- */
+.footer {
+    background-color: #FFD401;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7%;
+    padding: 3rem;
+    box-shadow: 0px -5px 10px rgb(166, 165, 165);
+}
+
+.f {
+    width: 50%;
+
+}
+
+.pic {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.pic img {
+    width: 100%;
+}
+
+.icon {
+    width: 25%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.icon img {
+    width: 90%;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.f a:hover {
+    text-decoration: underline;
+}
+
+.nonetype li {
+    list-style-type: none;
+}
+
+
+@media screen and (max-width:1023px) {
+    html {
+        min-width: 576px;
+    }
+    .photo {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .icon-1 {
+        width: 85%;
+    }
+
+    .btn-shop {
+        margin-left: 37%;
+    }
+
+    .box-in {
+        width: 90%;
+        height: 35vh;
+    }
+
+    .footer {
+        height: 45vh;
+    }
+
+    .f {
+        width: 30%;
+    }
+
+    .ad {
+        margin-left: 2rem;
+    }
+}
+
+@media screen and (max-width:576px) {
+    html {
+        min-width: 350px;
+    }
+    .icon-1 {
+        width: 70%;
+    }
+
+    .btn-shop {
+        margin-left: 23%;
+    }
+
+    .box-in {
+        width: 90%;
+        height: 20vh;
+    }
+
+    .box-photo {
+        height: 10vh;
+    }
+
+    .box-text {
+        font-size: xx-small;
+    }
+
+    .ph {
+        margin-top: 3rem;
+    }
+
+    .footer {
+        height: 65vh;
+        flex-wrap: wrap;
+    }
+
+    .f {
+        width: 50%;
+        font-size: small;
+    }
+
+    .ad {
+        margin-left: 2rem;
+    }
+}
+
+@media screen and (min-width:769px) {
+    .dropend:hover>.dropdown-menu {
+        position: absolute;
+        top: 0;
+        left: 100%;
+    }
+
+    .dropend .dropdown-toggle {
+        margin-left: .2em;
+    }
+}
+

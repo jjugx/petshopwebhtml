@@ -1,0 +1,111 @@
+* {
+    font-family: Kanit, sans-serif;
+}
+.container {
+    width: 80%;
+}
+
+h2 {
+    padding: 2rem;
+    text-align: center;
+}
+
+.box-img {
+    text-align: center;
+}
+
+.box-img img {
+    width: 30%;
+    height: auto;
+    margin-left: 0.5rem;
+    border-radius: 10px;
+}
+
+table,
+thead,
+th,
+tbody,
+tr,
+td {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #FFAB07;
+}
+tbody {
+    background-color: #f5d699;
+}
+
+table {
+    margin: 5rem auto;
+    width: 100%;
+}
+
+th,
+td {
+    text-align: center;
+}
+
+caption {
+    caption-side: top;
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.time p button {
+    padding: 0.2rem;
+    border: 2px solid #FFAB07;
+    background-color: white;
+}
+
+input[type="submit"] {
+    border-radius: 20px;
+    width: 20%;
+    background-color: #FFAB07;
+    border: none;
+    padding: 0.5rem;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="date"] {
+    border-radius: 10px;
+    width: 50%;
+    border: 2px solid black;
+}
+
+.form {
+    padding-left: 35%;
+}
+
+@media screen and (max-width:1023px) {
+    input[type="submit"] {
+        width: 30%;
+    }
+
+    input[type="text"],
+    input[type="tel"],
+    input[type="date"] {
+        width: 70%;
+    }
+}
+
+/* <= 576px */
+@media screen and (max-width:576px) {
+    input[type="submit"] {
+        width: 40%;
+    }
+
+    input[type="text"],
+    input[type="tel"],
+    input[type="date"] {
+        width: 100%;
+    }
+    html {
+        min-width: 350px;
+    }
+}
